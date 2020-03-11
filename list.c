@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "list.h"
-#include "file.h"
+#include "header/list.h"
+#include "header/file.h"
 
 //initializes the linked list
 void init(linkedList *a)
