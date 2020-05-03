@@ -44,7 +44,7 @@ void touch(Directory *current, char *filename, char *content)
 	strcmp(((File *)(it->data))->name, filename) <= 0) {
 		if (strcmp(((File *)(it->data))->name, filename) == 0)
 			return;
-	it = it->next;
+		it = it->next;
 	}
 
 	//adding it in the right lexicographic place
